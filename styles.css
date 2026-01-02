@@ -42,7 +42,7 @@ section {
 .header section {
     display: flex;
     align-items: center;
-    justify-content: space-between; /*Criar espaçamento entre os itens da barra de navegação*/
+    justify-content: space-between; /* Criar espaçamento entre os itens da barra de navegação */
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; 
     }
@@ -68,5 +68,49 @@ section {
 .icons img:hover {
     width: 40px;
     height: 40px;
-
 }
+
+/* Começo da primeira seção home */
+
+.home-container {
+    background: url("images/home-img.jpg");
+    background-position: center;
+    background-size: cover ;
+}
+
+.home-container section {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 100rem;
+}
+
+.content h3 {
+    font-size: 6rem;
+    color: var(--white);
+}
+
+.content p {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: var(--white);
+    padding: 1rem 0;
+    width: 600px;
+    text-align': JUSTIFY;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: var(--white);
+    padding: 1rem 3rem;
+    border-radius: 0.2rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
