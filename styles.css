@@ -4,7 +4,7 @@
     --black: #13131a;
     --white: #fff;
     --bg: #010103;
-    --border: 0.1rem solid rgba(255,255,255,0.3);
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
     font-size: 10px;
 }
 
@@ -16,7 +16,6 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: linear 0.2s;
     font-family: "Roboto", sans-serif;
 }
 
@@ -31,21 +30,25 @@ section {
 }
 
 .header {
-    position: fixed; /* Manter fixo mesmo movimentando a página*/
+    position: fixed;
+    /* Manter fixo mesmo movimentando a página*/
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; /* Indicar a sobreposição da página */
+    z-index: 9;
+    /* Indicar a sobreposição da página */
     border-bottom: var(--border);
+    background: var(--bg);
 }
 
 .header section {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Criar espaçamento entre os itens da barra de navegação */
+    justify-content: space-between;
+    /* Criar espaçamento entre os itens da barra de navegação */
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem; 
-    }
+    padding-bottom: 1.5rem;
+}
 
 .navbar a {
     margin: 0 1rem;
@@ -56,13 +59,15 @@ section {
 .navbar a:hover {
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
-    padding-bottom: 0,5rem;
+    padding-bottom: 0, 5rem;
     font-size: 2rem;
+    transition: linear 0.2s;
 }
 
 .icons img {
     margin: 1rem;
     cursor: pointer;
+    transition: linear 0.2s;
 }
 
 .icons img:hover {
@@ -75,7 +80,7 @@ section {
 .home-container {
     background: url("images/home-img.jpg");
     background-position: center;
-    background-size: cover ;
+    background-size: cover;
 }
 
 .home-container section {
@@ -100,7 +105,7 @@ section {
     color: var(--white);
     padding: 1rem 0;
     width: 600px;
-    text-align': JUSTIFY;
+    text-align: justify;
 }
 
 .btn {
@@ -113,4 +118,3 @@ section {
     margin-top: 1rem;
     display: inline-block;
 }
-
