@@ -81,6 +81,8 @@ section {
     background: url("images/home-img.jpg");
     background-position: center;
     background-size: cover;
+    width: 1200px;
+    height: 100%;
 }
 
 .home-container section {
